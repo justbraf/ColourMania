@@ -1,0 +1,49 @@
+.frame {
+  /* display: flex; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 900;
+  /* margin: auto; */
+}
+
+.rows {
+  order: 1;
+}
+
+.header {
+  font-size: 4em;
+}
+
+.subHeader {
+  font-size: 2em;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  align-items: flex-end;
+}
+
+.colourBlocks {
+  display: flex;
+  font-size: 1.5em;
+}
+
+.colBlk {
+  /* flex-grow: 3; */
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background: #aabbcc;
+  /* #RRGGBB */
+}
+
+.icn {
+  font-size: 2em;
+  display: none;
+}
+
+.icnShow {
+  display: block;
+}
